@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --background-color: #F5F5F5;
+    --blue-color: #5CDA2F;
+    --textwhite-color: #FFFFFF;
+    --textblue-color: #008037;
+    --content-color: #F2F2F2;
+    --textcontent-color: #504E4E;
+}
+
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.grid__column-4{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+}
+
+.grid__column-4-2{
+    padding-left: 0px;
+    padding-right: 10px;
+    width: 30%;
+}
